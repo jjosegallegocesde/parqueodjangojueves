@@ -9,14 +9,24 @@
 </head>
 <body>
     <div class="container">
-        <h1>Registrar Conductor</h1>
-        <div>
-            <div>
-                <button type="button" class="btn btn-success mb-2">Registrar</button>
+        <h1 class="my-4">Registrar Conductor</h1>
+        <form class="row">
+            <div class="mb-3 col-md-4">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre">
             </div>
-            <div>
-                <button type="button" class="btn btn-secondary">Cancelar</button>
+            <div class="mb-3 col-md-4">
+                <label for="cedula" class="form-label">Cédula</label>
+                <input type="text" class="form-control" id="cedula">
             </div>
+            <div class="mb-3 col-md-4">
+                <label for="telefono" class="form-label">Teléfono</label>
+                <input type="text" class="form-control" id="telefono">
+            </div>
+        </form>
+        <div class="d-flex align-items-center justify-content-end">
+            <button type="button" class="btn btn-secondary me-2">Cancelar</button>
+            <button type="button" class="btn btn-primary">Registrar</button>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>

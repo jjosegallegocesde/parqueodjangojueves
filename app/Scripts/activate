@@ -38,11 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-<<<<<<< HEAD
 VIRTUAL_ENV="D:\PARQUEOCOLAB\parqueodjangojueves\app"
-=======
-VIRTUAL_ENV="D:\NT\nt-momento3\parqueodjangojueves\app"
->>>>>>> cf384e83592d915f3fd1442b076ccd03f8b96c68
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
