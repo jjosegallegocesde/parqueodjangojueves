@@ -38,7 +38,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 VIRTUAL_ENV="D:\PARQUEOCOLAB\parqueodjangojueves\app"
+=======
+VIRTUAL_ENV="C:\Users\Estefania Mora\Desktop\Desarrollo De Sotfware 4\Nuevas Tecnologias\Explicaciones Cesde\parqueodjangojueves\app"
+>>>>>>> 6babb6ac59730cf9799dfb8d15be6a3e4659bed0
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
