@@ -8,4 +8,7 @@ def conductor(request):
 
 def registro(request):
     return render (request,'registroTicket.html')
+
+def vehiculo(request):
+    return render (request,'vehiculo.html')
     

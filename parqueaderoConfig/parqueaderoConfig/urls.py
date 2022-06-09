@@ -18,11 +18,13 @@ from django.urls import path
 from parqueaderoweb.views import conductor
 from parqueaderoweb.views import home
 from parqueaderoweb.views import registro
+from parqueaderoweb.views import vehiculo
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     
     path('', home),
     path('conductor/', conductor),    
-    path('registro/',registro )    
+    path('registro/',registro ),
+    path('vehiculo/', vehiculo)    
 ]
